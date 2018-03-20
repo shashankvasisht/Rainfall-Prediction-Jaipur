@@ -1,9 +1,7 @@
-import numpy as np
-import sklearn
-
 from flask import Flask, request, jsonify
 import pickle
-
+import numpy as np
+import sklearn
 app = Flask(__name__)
 
 @app.route('/')
